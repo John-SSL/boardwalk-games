@@ -95,6 +95,18 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events section */
+
+.student-discount {
+    background-color: var(--highlight-color);
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+
 /* Game Library cards */
 
 #new-games .card,
@@ -158,6 +170,11 @@ h2 {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 191px;
+    }
+
+    /* Students discount banner in Events secrion */
+    .student-discount{
+        max-width: 300px;
     }
 }
 
